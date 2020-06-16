@@ -1,0 +1,103 @@
+.type-1555 {
+    $color-primary: #21bda1;
+    $color-tile: #d3d3d3;
+    $color-txt: #666666;
+    $color-bg: #f8f8f8;
+    @mixin webkit {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        word-break: break-word;
+    }
+
+    @mixin img-bg($img) {
+        background-image: url($img);
+        background-size: cover;
+        background-position-x: center;
+        background-color: $color-bg;
+        height: 170px;
+        color: $color-tile;
+    }
+
+    @font-face {
+        font-family: Nunito Sans;
+        src: url(../fonts/NunitoSans-Regular.ttf);
+    }
+    font-family: "Nunito Sans";
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: (auto auto auto auto auto);
+        grid-gap: 10px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: (auto auto auto );
+        }
+
+        @media (max-width: 415px) {
+            grid-template-columns: (auto auto);
+        }
+    }
+
+    .item1 {
+        @include img-bg("../images/l0-2.png");
+    }
+    .item2 {
+        @include img-bg("../images/l0-6.png");
+    }
+    .item3 {
+        @include img-bg("../images/l0-3.png");
+    }
+    .item4 {
+        @include img-bg("../images/l0-4.png");
+    }
+    .item5 {
+        @include img-bg("../images/l0-5.png");
+    }
+
+    .grid-item {
+        .content {
+            transition: all 1s ease;
+            @include webkit();
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: $color-bg;
+            top: 170px;
+            height: 0;
+
+            p {
+                font-size: 90%;
+                color: $color-txt;
+            }
+        }
+
+        &:hover {
+            .content {
+                transition: all 1s ease;
+                top: 0;
+                height: 100%;
+            }
+        }
+    }
+
+    .temp {
+        margin-bottom: 3%;
+
+        h5 {
+            color: $color-primary;
+        }
+
+        a {
+            color: black;
+            border-bottom: solid $color-primary;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: $color-primary;
+        }
+    }
+
+    
+}

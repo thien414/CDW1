@@ -1,0 +1,105 @@
+
+.type-1550 {
+    $color-primary: #21bda1;
+    $color-txt: #666666;
+
+    @mixin webkit {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        word-break: break-word;
+    }
+
+    @font-face {
+        font-family: Nunito Sans;
+        src: url(../fonts/NunitoSans-Regular.ttf);
+    }
+
+    font-family: "Nunito Sans";
+
+    .swiper-container {
+        .swiper-slide {
+            p {
+                @include webkit();
+                color: $color-primary;
+                -webkit-line-clamp: 1;
+            }
+
+            h5 {
+                -webkit-line-clamp: 1;
+            }
+
+            img {
+                position: relative;
+                width: 100%;
+            }
+
+            .check:hover {
+                .icon {
+                    display: block;
+                    transform: translateY(-100%);
+                }
+            }
+
+            .icon {
+                @include webkit();
+                width: 100%;
+                height: 80%;
+                text-align: center;
+                display: none;
+                position: absolute;
+                background-color: rgba(0,0,0,0.5);
+
+                a {
+                    color: rgb(156, 156, 156);
+                    font-size: 300%;
+
+                    i {
+                        margin-top: 65%;
+                    }
+                }
+
+                a:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    .temp {
+        word-break: break-word;
+        padding: 1.5rem;
+        font-size: 150%;
+        background-color: $color-primary;
+        border-radius: 5px;
+    }
+
+    .content {
+        @include webkit();
+
+        h4 {
+            color: $color-primary;
+            -webkit-line-clamp: 1;
+        }
+
+        h3 {
+            -webkit-line-clamp: 4;
+        }
+
+        p {
+            color: $color-txt;
+            -webkit-line-clamp: 3;
+        }
+
+        a {
+            color: black;
+            border-bottom: solid $color-primary;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: $color-primary;
+        }
+    }
+}

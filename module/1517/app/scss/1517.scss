@@ -1,0 +1,51 @@
+.type-1517 {
+    $image-size: 100%;
+    $font-size: 300%;
+    $range: 60px;
+    $color-primary: #21bda1;
+    $color-txt: #666666;
+
+    @font-face {
+        font-family: Nunito Sans;
+        src: url(../fonts/NunitoSans-Regular.ttf);
+    }
+
+    font-family: "Nunito Sans";
+    word-break: break-word;
+.tieu-de {
+            font-size: $font-size;
+            margin-top: $range;
+            margin-bottom: $range;
+        }
+    .content {
+        display: inline-block;
+        
+        h4 {
+            color: $color-primary;
+        }
+
+        .donet {
+            span {
+                border-bottom: solid $color-primary;
+            }
+        }
+
+        .donet:hover {
+            color: $color-primary;
+        }
+    }
+
+    .image-rage {
+            position: relative;
+        .image-one {
+            width: 80%;
+            right: 0;
+        }
+        .image-two {
+            position: absolute;
+            width: 48%;
+            bottom: -20%;
+            left: 0;
+        }
+    }
+}
