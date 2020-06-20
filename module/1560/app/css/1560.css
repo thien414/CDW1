@@ -1,13 +1,12 @@
-@font-face {
-  font-family: Nunito Sans;
-  src: url(../fonts/NunitoSans-Regular.ttf); }
-
 .type-1560 {
   font-family: "Nunito Sans";
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   word-break: break-word; }
+  @font-face {
+    font-family: Nunito Sans;
+    src: url(../fonts/NunitoSans-Regular.ttf); }
   .type-1560 p {
     color: #666666; }
     .type-1560 .list-item .disp_none {
