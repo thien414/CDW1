@@ -22,9 +22,9 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 
-    <div class="grid-container">
-        <div class="grid-item position-relative">
-            <div class="item1 d-flex align-items-end justify-content-center">
+    <div class="grid-container toggle">
+        <div class="grid-item position-relative item">
+            <div class="item-1 d-flex align-items-end justify-content-center">
                 <h6> Rouge Waves Soap</h6>
             </div>
 
@@ -33,8 +33,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <p> Dolor sit amet consectetur adipiscing elit dolor.</p>
             </div>
         </div>
-        <div class="grid-item position-relative">
-            <div class="item2 d-flex align-items-end justify-content-center">
+        <div class="grid-item position-relative item">
+            <div class="item-2 d-flex align-items-end justify-content-center">
                 <h6> Rouge Waves Soap</h6>
             </div>
             <div class="content">
@@ -42,8 +42,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <p> Dolor sit amet consectetur adipiscing elit dolor.</p>
             </div>
         </div>
-        <div class="grid-item position-relative">
-            <div class="item3 d-flex align-items-end justify-content-center">
+        <div class="grid-item position-relative item">
+            <div class="item-3 d-flex align-items-end justify-content-center">
                 <h6> Rouge Waves Soap</h6>
             </div>
             <div class="content">
@@ -51,8 +51,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <p> Dolor sit amet consectetur adipiscing elit dolor.</p>
             </div>
         </div>
-        <div class="grid-item position-relative">
-            <div class="item4 d-flex align-items-end justify-content-center">
+        <div class="grid-item position-relative item">
+            <div class="item-4 d-flex align-items-end justify-content-center">
                 <h6> Rouge Waves Soap</h6>
             </div>
             <div class="content">
@@ -60,8 +60,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <p> Dolor sit amet consectetur adipiscing elit dolor.</p>
             </div>
         </div>
-        <div class="grid-item position-relative">
-            <div class="item5 d-flex align-items-end justify-content-center">
+        <div class="grid-item position-relative item">
+            <div class="item-5 d-flex align-items-end justify-content-center">
                 <h6> Rouge Waves Soap</h6>
             </div>
             <div class="content">

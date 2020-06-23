@@ -12,7 +12,7 @@
     
     $scss = new Compiler();
     
-    $result = $scss->compile('@import"app/scss/1545.scss"');
+    $result = $scss->compile('@import"app/sass/1545.scss"');
     
     file_put_contents("app/css/1545.css",$result);
 ?>
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="<?php echo $url_path ?>/app/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $url_path ?>/app/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $url_path ?>/app/css/1545.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/swiper/css/swiper.min.css" >
+    <link rel="stylesheet" href="<?php echo $url_path ?>/app/js/swiper/css/swiper.min.css" >
     <script src="<?php echo $url_path ?>/app/js/jquery-3.2.0.min.js"></script>
     <script src="<?php echo $url_path ?>/app/js/bootstrap.min.js"></script>
     <title>Modul 1545</title>

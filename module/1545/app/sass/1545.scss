@@ -21,14 +21,13 @@
         -webkit-line-clamp: $webkit-line-clamp;
     }
 
-    .swiper-container {
+    .togge {
         position: relative;
-
-        .swiper-slide {
+        .slide {
             .img {
                 cursor: pointer;
                 .images {
-                    width: 373px;
+                    width: 350px;
                     img {
                         object-fit: cover;
                     }

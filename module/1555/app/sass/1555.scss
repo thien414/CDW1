@@ -25,13 +25,13 @@
     }
     font-family: "Nunito Sans";
 
-    .grid-container {
+    .toggle {
         display: grid;
         grid-template-columns: (auto auto auto auto auto);
         grid-gap: 10px;
 
         @media (max-width: 768px) {
-            grid-template-columns: (auto auto auto );
+            grid-template-columns: (auto auto auto);
         }
 
         @media (max-width: 415px) {
@@ -39,23 +39,22 @@
         }
     }
 
-    .item1 {
-        @include img-bg("../images/l0-2.png");
-    }
-    .item2 {
-        @include img-bg("../images/l0-6.png");
-    }
-    .item3 {
-        @include img-bg("../images/l0-3.png");
-    }
-    .item4 {
-        @include img-bg("../images/l0-4.png");
-    }
-    .item5 {
-        @include img-bg("../images/l0-5.png");
-    }
-
-    .grid-item {
+    .item {
+        &-1 {
+            @include img-bg("../images/l0-2.png");
+        }
+        &-2 {
+            @include img-bg("../images/l0-6.png");
+        }
+        &-3 {
+            @include img-bg("../images/l0-3.png");
+        }
+        &-4 {
+            @include img-bg("../images/l0-4.png");
+        }
+        &-5 {
+            @include img-bg("../images/l0-5.png");
+        }
         .content {
             transition: all 1s ease;
             @include webkit();
@@ -98,6 +97,4 @@
             color: $color-primary;
         }
     }
-
-    
 }

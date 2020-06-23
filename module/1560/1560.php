@@ -12,7 +12,7 @@
     
     $scss = new Compiler();
     
-    $result = $scss->compile('@import"app/scss/1560.scss"');
+    $result = $scss->compile('@import"app/sass/1560.scss"');
     
     file_put_contents("app/css/1560.css",$result);
 ?>

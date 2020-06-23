@@ -34,7 +34,7 @@
         .item {
             cursor: pointer;
 
-            .fa-caret-up {
+            .up {
                 display: none;
             }
         }
@@ -42,11 +42,11 @@
         .itemShow {
             color: $color-primary;
 
-            .fa-caret-down {
+            .down {
                 display: none;
             }
 
-            .fa-caret-up {
+            .up {
                 display: block;
             }
         }

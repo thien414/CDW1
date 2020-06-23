@@ -25,8 +25,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="mb-3">
                         <div class="item" id="item1">
                             <span>
-                                <i class="fa fa-caret-down pr-2 float-left" aria-hidden="true"></i>
-                                <i class="fa fa-caret-up pr-2 float-left" aria-hidden="true"></i>
+                                <i class="fa fa-caret-down pr-2 float-left down" aria-hidden="true"></i>
+                                <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i>
                                 Who can become at instructor?</span>
                         </div>
                         <p class="pl-4 disp_none" id="text1">Amet isum consectetur elit? Ut lorem dolor elit tellus!
@@ -36,8 +36,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="mb-3 ">
                         <div class="item" id="item2">
                             <span>
-                                <i class="fa fa-caret-down pr-2 float-left" aria-hidden="true"></i>
-                                <i class="fa fa-caret-up pr-2 float-left" aria-hidden="true"></i></span>
+                                <i class="fa fa-caret-down pr-2 float-left down" aria-hidden="true"></i>
+                                <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i></span>
                             What lorem amet nulla?
                         </div>
                         <p class="pl-4 disp_none" id="text2">Lorem ipsum dolor sit amet elit tellus, luctus nec
@@ -47,8 +47,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="mb-3">
                         <div class="item" id="item3">
                             <span>
-                                <i class="fa fa-caret-down pr-2 float-left" aria-hidden="true"></i>
-                                <i class="fa fa-caret-up pr-2 float-left" aria-hidden="true"></i></span>
+                                <i class="fa fa-caret-down pr-2 float-left down" aria-hidden="true"></i>
+                                <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i></span>
                             How nulla glavrida dolor amet?
                         </div>
                         <p class="pl-4 disp_none" id="text3">Ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -58,8 +58,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="mb-3">
                         <div class="item" id="item4">
                             <span>
-                                <i class="fa fa-caret-down pr-2 float-left" aria-hidden="true"></i>
-                                <i class="fa fa-caret-up pr-2 float-left" aria-hidden="true"></i></span>
+                                <i class="fa fa-caret-down pr-2 float-left down" aria-hidden="true"></i>
+                                <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i></span>
                             Ut elit tellus luctus nec?
                         </div>
                         <p class="pl-4 disp_none" id="text4">Sit amet consectetur adipiscing elit. Ut elit mattis,

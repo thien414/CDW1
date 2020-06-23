@@ -15,11 +15,11 @@
       display: block; }
     .type-1560 .list-item .item {
       cursor: pointer; }
-      .type-1560 .list-item .item .fa-caret-up {
+      .type-1560 .list-item .item .up {
         display: none; }
     .type-1560 .list-item .itemShow {
       color: #21bda1; }
-      .type-1560 .list-item .itemShow .fa-caret-down {
+      .type-1560 .list-item .itemShow .down {
         display: none; }
-      .type-1560 .list-item .itemShow .fa-caret-up {
+      .type-1560 .list-item .itemShow .up {
         display: block; }
