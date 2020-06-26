@@ -41,22 +41,23 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
 
     <div class="row mt-5 content">
-        <div class="col-lg-3 col-md-6 col-12 content-img">
+        <div class="col-lg-3 col-md-6 col-12 pb-3 content-img">
             <img src="app/images/28-giuong.png" alt="">
         </div>
-        <div class="col-lg-3 col-md-6 col-12  content-img">
+        <div class="col-lg-3 col-md-6 col-12  pb-3 content-img">
             <img src="app/images/28-banghe.png" alt="">
         </div>
-        <div class="col-lg-3 col-md-6 col-12 content-img ">
+        <div class="col-lg-3 col-md-6 col-12 pb-3 content-img ">
             <img src="app/images/28-phongkhach.jpg" alt="">
         </div>
-        <div class="col-lg-3 col-md-6 col-12  content-img">
+        <div class="col-lg-3 col-md-6 col-12 pb-3  content-img">
             <img src="app/images/28-phongkhach2.png" alt="">
         </div>
     </div>
 </div>
 
 <script>
+
 var el = document.querySelectorAll('div .tile');
 
 function myclick(id) {
