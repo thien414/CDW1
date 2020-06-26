@@ -1,0 +1,56 @@
+.type-28 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-break: break-word; }
+  .type-28 .title {
+    position: relative; }
+    .type-28 .title::before {
+      position: absolute;
+      content: "";
+      display: block;
+      bottom: -7px;
+      width: 80px;
+      height: 1px;
+      background-color: red; }
+    .type-28 .title::after {
+      position: absolute;
+      content: "";
+      display: block;
+      bottom: -10px;
+      width: 80px;
+      height: 2px;
+      background-color: red; }
+  .type-28 .tile {
+    cursor: pointer;
+    border-bottom: 1px solid darkgray;
+    color: darkgrey;
+    font-weight: 600; }
+  .type-28 .borders-show {
+    border: 1px solid darkgray;
+    border-bottom: none;
+    color: black; }
+    .type-28 .content-img img {
+      width: 100%; }
+  .type-28 #tile1 {
+    position: relative; }
+    .type-28 #tile1::before {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 10px;
+      height: 1px;
+      bottom: -1px;
+      background-color: darkgray;
+      left: -10px; }
+  .type-28 #tile6 {
+    position: relative; }
+    .type-28 #tile6::before {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 10px;
+      height: 1px;
+      bottom: -1px;
+      background-color: darkgray;
+      right: -10px; }

@@ -1,0 +1,71 @@
+.type-28 {
+    @mixin borders-title($height, $bottom) {
+        position: absolute;
+        content: "";
+        display: block;
+        bottom: $bottom;
+        width: 80px;
+        height: $height;
+        background-color: red;
+    }
+
+    @mixin borders-tile() {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 10px;
+        height: 1px;
+        bottom: -1px;
+        background-color: darkgray;
+    }
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+
+    .title {
+        position: relative;
+        &::before {
+            @include borders-title(1px, -7px);
+        }
+        &::after {
+            @include borders-title(2px, -10px);
+        }
+    }
+
+    .tile {
+        cursor: pointer;
+        border-bottom: 1px solid darkgray;
+        color: darkgrey;
+        font-weight: 600;
+    }
+
+    .borders-show {
+        border: 1px solid darkgray;
+        border-bottom: none;
+        color: black;
+    }
+
+    .content {
+        &-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    #tile1 {
+        position: relative;
+        &::before {
+            @include borders-tile();
+            left: -10px;
+        }
+    }
+    #tile6 {
+        position: relative;
+        &::before {
+            @include borders-tile();
+            right: -10px;
+        }
+    }
+}
