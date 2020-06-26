@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-1.jpg" alt="" class="w-100 h-100 ">
+                                    <img src="images/nature-1.jpg" alt="" class="w-100 h-100 ">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-2.jpg" alt="" class="w-100 h-100 ">
+                                    <img src="images/nature-2.jpg" alt="" class="w-100 h-100 ">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
@@ -66,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-3.jpg" alt="" class="w-100 h-100 ">
+                                    <img src="images/nature-3.jpg" alt="" class="w-100 h-100 ">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
@@ -87,7 +87,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-4.jpg" alt="" class="w-100 h-100 ">
+                                    <img src="images/nature-4.jpg" alt="" class="w-100 h-100 ">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
@@ -107,7 +107,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-5.jpg" alt="" class="h-100 w-100">
+                                    <img src="images/nature-5.jpg" alt="" class="h-100 w-100">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
@@ -127,7 +127,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-6.jpg" alt="" class="w-100 h-100 ">
+                                    <img src="images/nature-6.jpg" alt="" class="w-100 h-100 ">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
@@ -165,7 +165,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 
 <!-- Swiper JS -->
-<script src="app/js/swiper/js/swiper.min.js"></script>
+<script src="js/swiper/js/swiper.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>

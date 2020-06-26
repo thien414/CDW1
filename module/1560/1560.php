@@ -12,9 +12,9 @@
     
     $scss = new Compiler();
     
-    $result = $scss->compile('@import"app/sass/1560.scss"');
+    $result = $scss->compile('@import"sass/1560.scss"');
     
-    file_put_contents("app/css/1560.css",$result);
+    file_put_contents("css/1560.css",$result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,11 +22,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/app/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/app/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/app/css/1560.css">
-    <script src="<?php echo $url_path ?>/app/js/jquery-3.2.0.min.js"></script>
-    <script src="<?php echo $url_path ?>/app/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?php echo $url_path ?>/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/1560.css">
+    <script src="<?php echo $url_path ?>/js/jquery-3.2.0.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     <title>Modul 1560</title>
 </head>
 

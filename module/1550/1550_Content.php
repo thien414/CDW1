@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-wrapper">
                 <div class="swiper-slide slide">
                     <div class="check">
-                        <img src="app/images/in000-380x506.jpg" alt="">
+                        <img src="images/in000-380x506.jpg" alt="">
                         <div class="icon">
                             <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                         </div>
@@ -27,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="swiper-slide slide">
                     <div class="check">
-                        <img src="app/images/in004-380x506.jpg" alt="">
+                        <img src="images/in004-380x506.jpg" alt="">
                         <div class="icon">
                             <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                         </div>
@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="swiper-slide slide">
                     <div class="check">
-                        <img src="app/images/in006-380x506.jpg" alt="">
+                        <img src="images/in006-380x506.jpg" alt="">
                         <div class="icon">
                             <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                         </div>
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="swiper-slide slide">
                     <div class="check">
-                        <img src="app/images/in007-380x506.jpg" alt="">
+                        <img src="images/in007-380x506.jpg" alt="">
                         <div class="icon">
                             <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                         </div>
@@ -57,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="swiper-slide slide">
                     <div class="check">
-                        <img src="app/images/port003-380x506.jpg" alt="">
+                        <img src="images/port003-380x506.jpg" alt="">
                         <div class="icon">
                             <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                         </div>
@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="swiper-slide slide">
                     <div class="check">
-                        <img src="app/images/port004-380x506.jpg" alt="">
+                        <img src="images/port004-380x506.jpg" alt="">
                         <div class="icon">
                             <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                         </div>
@@ -96,7 +96,7 @@ $url_path = str_replace('\\', '/', $url_path);
 </div>
 
 <!-- Swiper JS -->
-<script src="app/js/swiper/js/swiper.min.js"></script>
+<script src="js/swiper/js/swiper.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>

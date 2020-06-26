@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i>
                                 Who can become at instructor?</span>
                         </div>
-                        <p class="pl-4 disp_none" id="text1">Amet isum consectetur elit? Ut lorem dolor elit tellus!
+                        <p class="pl-3 disp_none" id="text1">Amet isum consectetur elit? Ut lorem dolor elit tellus!
                             Ipsum
                             luctus nec ullamcorper mattis amet.</p>
                     </div>
@@ -40,7 +40,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i></span>
                             What lorem amet nulla?
                         </div>
-                        <p class="pl-4 disp_none" id="text2">Lorem ipsum dolor sit amet elit tellus, luctus nec
+                        <p class="pl-3 disp_none" id="text2">Lorem ipsum dolor sit amet elit tellus, luctus nec
                             ullamcorper
                             mattis pulvinar.</p>
                     </div>
@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i></span>
                             How nulla glavrida dolor amet?
                         </div>
-                        <p class="pl-4 disp_none" id="text3">Ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                        <p class="pl-3 disp_none" id="text3">Ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                             tellus,
                             luctus nec ullamcorper mattis.</p>
                     </div>
@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <i class="fa fa-caret-up pr-2 float-left up" aria-hidden="true"></i></span>
                             Ut elit tellus luctus nec?
                         </div>
-                        <p class="pl-4 disp_none" id="text4">Sit amet consectetur adipiscing elit. Ut elit mattis,
+                        <p class="pl-3 disp_none" id="text4">Sit amet consectetur adipiscing elit. Ut elit mattis,
                             pulvinar
                             dapibus leo dolor.</p>
                     </div>

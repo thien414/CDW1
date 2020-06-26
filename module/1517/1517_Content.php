@@ -40,8 +40,8 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="col-lg-5 col-12 ">
             <div class="image-rage text-right">
 
-                <img class="image-one" src="app/images/hinh1.jpg" alt="">
-                <img class="image-two" src="app/images/hinh2.jpg" alt="">
+                <img class="image-one" src="images/hinh1.jpg" alt="">
+                <img class="image-two" src="images/hinh2.jpg" alt="">
             </div>
         </div>
     </div>
