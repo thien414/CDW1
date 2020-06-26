@@ -107,7 +107,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="swiper-slide slide">
                             <div class="img">
                                 <div class="images">
-                                    <img src="app/images/nature-5.jpg" class="h-100 w-100">
+                                    <img src="app/images/nature-5.jpg" alt="" class="h-100 w-100">
                                 </div>
                                 <div class="content-overlayer d-flex align-items-end p-3 w-100 h-100 ">
 
